@@ -31,3 +31,5 @@ async def exercise_view(request):
     loop = asyncio.get_event_loop()
     loop.create_task(http_call_async())
     return HttpResponse("Exercise - EBAC: Async_view OK")
+
+##Exercício entregue
